@@ -1,0 +1,52 @@
+
+
+#d1 ul li
+{
+	color: blue;
+	float: left;
+	display: block;
+	/*border:1px solid black;*/
+	width: 200px;
+	background-color: gray;
+	padding: 10px;
+	
+}
+/*#d1 ul ul
+{
+	margin-top: 2px;
+	margin-left: -0.5px;
+}*/
+#d1 ul ul 
+{
+	float: left;
+	margin-left: -51px;
+	display: block;
+	margin-top: -17.5px;
+	padding-top: 20px;
+	display: block;
+}
+#d1 ul ul ul
+{
+	margin-top: -50px;
+	margin-left: 171px;
+	display: none;
+}
+#d1 ul li:hover
+{
+	background-color: skyblue;
+	color:red;
+}
+#d1 ul ul li:hover 
+{
+	background-color:red;
+	color:yellow;
+}
+#d1 ul li:hover > ul
+{
+	display: block;
+}
+#d1 ul ul ul:hover > li
+{
+	background-color: pink;
+	color:black;
+}
