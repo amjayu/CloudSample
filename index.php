@@ -1,7 +1,7 @@
 <?php
 
-echo "Hello World!";
+echo "Hello There To Check My Website Click The Link Below:\n";
 
-echo "<a href='home1.html'>Click Me</a>"
+echo "<a href='home1.html'>Hey You Are You Looking For Me ?</a>"
 
 ?>
